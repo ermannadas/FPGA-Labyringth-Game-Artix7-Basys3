@@ -1,0 +1,1063 @@
+
+*** Running vivado
+    with args -log top_level.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source top_level.tcl -notrace
+Command: synth_design -top top_level -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28528 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 707.059 ; gain = 178.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_level' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/top_level.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.runs/synth_1/.Xil/Vivado-30516-ERMAN-WORK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.runs/synth_1/.Xil/Vivado-30516-ERMAN-WORK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'button_handler' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/button_handler.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/imports/Downloads/debouncer.v:3]
+	Parameter DEBOUNCE_DURATION bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (2#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/imports/Downloads/debouncer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rising_edge_detector' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/rising_edge_detector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rising_edge_detector' (3#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/rising_edge_detector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'button_handler' (4#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/button_handler.v:23]
+INFO: [Synth 8-6157] synthesizing module 'switch_handler' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/switch_handler.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'switch_handler' (5#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/switch_handler.v:23]
+INFO: [Synth 8-6157] synthesizing module 'uart_handler' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:23]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:27]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:28]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:29]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:30]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:31]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:32]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:33]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:34]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:35]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:36]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:39]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:40]
+INFO: [Synth 8-6157] synthesizing module 'uart_receiver' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_receiver.v:23]
+	Parameter CLKS_PER_BIT bound to: 10416 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter START bound to: 1 - type: integer 
+	Parameter DATA bound to: 2 - type: integer 
+	Parameter STOP bound to: 3 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_receiver.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'uart_receiver' (6#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_receiver.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'receiver'. This will prevent further optimization [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'uart_handler' (7#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/uart_handler.v:23]
+INFO: [Synth 8-6157] synthesizing module 'map_size' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:23]
+INFO: [Synth 8-6157] synthesizing module 'game' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+	Parameter MAP_SIZE bound to: 4 - type: integer 
+	Parameter MOVE_SIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'map_generator' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+	Parameter MAP_SIZE bound to: 4 - type: integer 
+	Parameter MOVE_SIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'prand_num_gen_1024' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/prand_num_gen_1024.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'prand_num_gen_1024' (8#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/prand_num_gen_1024.v:22]
+INFO: [Synth 8-6157] synthesizing module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/prand_num_gen_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'prand_num_gen_32' (9#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/prand_num_gen_32.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:48]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:56]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:64]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'map_generator' (10#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'labyrinth_game' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+	Parameter MAP_SIZE bound to: 4 - type: integer 
+	Parameter MOVE_SIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'labyrinth_game' (11#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'game' (12#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'goal_x_o' does not match port width (2) of module 'game' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:89]
+WARNING: [Synth 8-689] width (4) of port connection 'goal_y_o' does not match port width (2) of module 'game' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:90]
+WARNING: [Synth 8-689] width (4) of port connection 'player_x_o' does not match port width (2) of module 'game' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:91]
+WARNING: [Synth 8-689] width (4) of port connection 'player_y_o' does not match port width (2) of module 'game' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:92]
+INFO: [Synth 8-6157] synthesizing module 'render' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+	Parameter MAP_SIZE bound to: 4 - type: integer 
+	Parameter MOVE_SIZE bound to: 2 - type: integer 
+	Parameter CELL_WIDTH bound to: 160 - type: integer 
+	Parameter CELL_HEIGHT bound to: 120 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/vga_controller.v:22]
+	Parameter H_DISP bound to: 640 - type: integer 
+	Parameter H_FP bound to: 16 - type: integer 
+	Parameter H_PW bound to: 96 - type: integer 
+	Parameter H_BP bound to: 48 - type: integer 
+	Parameter H_SYNC bound to: 800 - type: integer 
+	Parameter V_DISP bound to: 480 - type: integer 
+	Parameter V_FP bound to: 10 - type: integer 
+	Parameter V_PW bound to: 2 - type: integer 
+	Parameter V_BP bound to: 33 - type: integer 
+	Parameter V_SYNC bound to: 525 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (13#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/vga_controller.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'render' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'player_x_i' does not match port width (2) of module 'render' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:102]
+WARNING: [Synth 8-689] width (4) of port connection 'player_y_i' does not match port width (2) of module 'render' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:103]
+WARNING: [Synth 8-689] width (4) of port connection 'goal_x_i' does not match port width (2) of module 'render' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:104]
+WARNING: [Synth 8-689] width (4) of port connection 'goal_y_i' does not match port width (2) of module 'render' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:105]
+INFO: [Synth 8-6157] synthesizing module 'game__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+	Parameter MAP_SIZE bound to: 8 - type: integer 
+	Parameter MOVE_SIZE bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'map_generator__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+	Parameter MAP_SIZE bound to: 8 - type: integer 
+	Parameter MOVE_SIZE bound to: 3 - type: integer 
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:48]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:56]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:64]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'map_generator__parameterized0' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'labyrinth_game__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+	Parameter MAP_SIZE bound to: 8 - type: integer 
+	Parameter MOVE_SIZE bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'labyrinth_game__parameterized0' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'game__parameterized0' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'goal_x_o' does not match port width (3) of module 'game__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:152]
+WARNING: [Synth 8-689] width (8) of port connection 'goal_y_o' does not match port width (3) of module 'game__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:153]
+WARNING: [Synth 8-689] width (8) of port connection 'player_x_o' does not match port width (3) of module 'game__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:154]
+WARNING: [Synth 8-689] width (8) of port connection 'player_y_o' does not match port width (3) of module 'game__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:155]
+INFO: [Synth 8-6157] synthesizing module 'render__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+	Parameter MAP_SIZE bound to: 8 - type: integer 
+	Parameter MOVE_SIZE bound to: 3 - type: integer 
+	Parameter CELL_WIDTH bound to: 80 - type: integer 
+	Parameter CELL_HEIGHT bound to: 60 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'render__parameterized0' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'player_x_i' does not match port width (3) of module 'render__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:165]
+WARNING: [Synth 8-689] width (8) of port connection 'player_y_i' does not match port width (3) of module 'render__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:166]
+WARNING: [Synth 8-689] width (8) of port connection 'goal_x_i' does not match port width (3) of module 'render__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:167]
+WARNING: [Synth 8-689] width (8) of port connection 'goal_y_i' does not match port width (3) of module 'render__parameterized0' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:168]
+INFO: [Synth 8-6157] synthesizing module 'game__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+	Parameter MAP_SIZE bound to: 16 - type: integer 
+	Parameter MOVE_SIZE bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'map_generator__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+	Parameter MAP_SIZE bound to: 16 - type: integer 
+	Parameter MOVE_SIZE bound to: 4 - type: integer 
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:48]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:56]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:64]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'map_generator__parameterized1' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'labyrinth_game__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+	Parameter MAP_SIZE bound to: 16 - type: integer 
+	Parameter MOVE_SIZE bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'labyrinth_game__parameterized1' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'game__parameterized1' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'goal_x_o' does not match port width (4) of module 'game__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:215]
+WARNING: [Synth 8-689] width (16) of port connection 'goal_y_o' does not match port width (4) of module 'game__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:216]
+WARNING: [Synth 8-689] width (16) of port connection 'player_x_o' does not match port width (4) of module 'game__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:217]
+WARNING: [Synth 8-689] width (16) of port connection 'player_y_o' does not match port width (4) of module 'game__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:218]
+INFO: [Synth 8-6157] synthesizing module 'render__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+	Parameter MAP_SIZE bound to: 16 - type: integer 
+	Parameter MOVE_SIZE bound to: 4 - type: integer 
+	Parameter CELL_WIDTH bound to: 40 - type: integer 
+	Parameter CELL_HEIGHT bound to: 30 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'render__parameterized1' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'player_x_i' does not match port width (4) of module 'render__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:228]
+WARNING: [Synth 8-689] width (16) of port connection 'player_y_i' does not match port width (4) of module 'render__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:229]
+WARNING: [Synth 8-689] width (16) of port connection 'goal_x_i' does not match port width (4) of module 'render__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:230]
+WARNING: [Synth 8-689] width (16) of port connection 'goal_y_i' does not match port width (4) of module 'render__parameterized1' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:231]
+INFO: [Synth 8-6157] synthesizing module 'game__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+	Parameter MAP_SIZE bound to: 32 - type: integer 
+	Parameter MOVE_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'map_generator__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+	Parameter MAP_SIZE bound to: 32 - type: integer 
+	Parameter MOVE_SIZE bound to: 5 - type: integer 
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:48]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:56]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:64]
+WARNING: [Synth 8-689] width (5) of port connection 'random_number' does not match port width (32) of module 'prand_num_gen_32' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'map_generator__parameterized2' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_generator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'labyrinth_game__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+	Parameter MAP_SIZE bound to: 32 - type: integer 
+	Parameter MOVE_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'labyrinth_game__parameterized2' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'game__parameterized2' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/game.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'goal_x_o' does not match port width (5) of module 'game__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:278]
+WARNING: [Synth 8-689] width (32) of port connection 'goal_y_o' does not match port width (5) of module 'game__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:279]
+WARNING: [Synth 8-689] width (32) of port connection 'player_x_o' does not match port width (5) of module 'game__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:280]
+WARNING: [Synth 8-689] width (32) of port connection 'player_y_o' does not match port width (5) of module 'game__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:281]
+INFO: [Synth 8-6157] synthesizing module 'render__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+	Parameter MAP_SIZE bound to: 32 - type: integer 
+	Parameter MOVE_SIZE bound to: 5 - type: integer 
+	Parameter CELL_WIDTH bound to: 20 - type: integer 
+	Parameter CELL_HEIGHT bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'render__parameterized2' (14#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/render.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'player_x_i' does not match port width (5) of module 'render__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:291]
+WARNING: [Synth 8-689] width (32) of port connection 'player_y_i' does not match port width (5) of module 'render__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:292]
+WARNING: [Synth 8-689] width (32) of port connection 'goal_x_i' does not match port width (5) of module 'render__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:293]
+WARNING: [Synth 8-689] width (32) of port connection 'goal_y_i' does not match port width (5) of module 'render__parameterized2' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:294]
+INFO: [Synth 8-6155] done synthesizing module 'map_size' (15#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/map_size.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_segment_controller' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/seven_segment_controller.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/seven_segment_controller.v:37]
+INFO: [Synth 8-226] default block is never used [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/seven_segment_controller.v:129]
+INFO: [Synth 8-6155] done synthesizing module 'seven_segment_controller' (16#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/seven_segment_controller.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_level' (17#1) [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/top_level.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 774.516 ; gain = 246.051
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 774.516 ; gain = 246.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 774.516 ; gain = 246.051
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_inst'
+Finished Parsing XDC File [c:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_inst'
+Parsing XDC File [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
+Finished Parsing XDC File [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_level_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 964.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 964.949 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 964.949 ; gain = 436.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 964.949 ; gain = 436.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_int_i. (constraint file  c:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_int_i. (constraint file  c:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for clk_wiz_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 964.949 ; gain = 436.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_receiver'
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:108]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:102]
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:108]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:102]
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "break_wall_lives_o" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                   START |                               01 |                               01
+                    DATA |                               10 |                               10
+                    STOP |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_receiver'
+WARNING: [Synth 8-327] inferring latch for variable 'idx_reg' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'idx_reg' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'idx_reg' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'idx_reg' [C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.srcs/sources_1/new/labyrinth_game.v:49]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 964.949 ; gain = 436.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 8     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 10    
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 9     
++---XORs : 
+	   7 Input      1 Bit         XORs := 4     
+	   4 Input      1 Bit         XORs := 16    
++---Registers : 
+	             1024 Bit    Registers := 7     
+	              256 Bit    Registers := 3     
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 16    
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 8     
+	               10 Bit    Registers := 8     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 12    
+	                4 Bit    Registers := 15    
+	                3 Bit    Registers := 17    
+	                2 Bit    Registers := 17    
+	                1 Bit    Registers := 64    
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 7     
+	   2 Input    256 Bit        Muxes := 3     
+	   2 Input     64 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 16    
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 4     
+	   4 Input     16 Bit        Muxes := 1     
+	   5 Input     10 Bit        Muxes := 3     
+	   5 Input      9 Bit        Muxes := 1     
+	  14 Input      7 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 41    
+	   5 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 16    
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 5     
+	   6 Input      3 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 51    
+	  18 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_level 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+Module debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module rising_edge_detector 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module uart_receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module uart_handler 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   5 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+Module prand_num_gen_1024 
+Detailed RTL Component Info : 
++---XORs : 
+	   7 Input      1 Bit         XORs := 1     
++---Registers : 
+	             1024 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 1     
+Module prand_num_gen_32 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module map_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module labyrinth_game 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+Module game 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      9 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  18 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module vga_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+Module render 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 7     
+Module map_generator__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module labyrinth_game__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+Module game__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     10 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  18 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module render__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 7     
+Module map_generator__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	              256 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module labyrinth_game__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	              256 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+Module game__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	              256 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     10 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  18 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module render__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 7     
+Module map_generator__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	             1024 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module labyrinth_game__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	             1024 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 1     
+Module game__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	             1024 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     10 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  18 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module render__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 1     
+Module map_size 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+Module seven_segment_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	  14 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[4]' (LDC) to 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[5]' (LDC) to 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[6]' (LDC) to 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[7]' (LDC) to 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[8]' (LDC) to 'map_size_inst/game_4x4/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (map_size_inst/game_4x4/\labyrinth_game_inst/idx_reg[9] )
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/labyrinth_game_inst/idx_reg[6]' (LDC) to 'map_size_inst/game_8x8/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/labyrinth_game_inst/idx_reg[7]' (LDC) to 'map_size_inst/game_8x8/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/labyrinth_game_inst/idx_reg[8]' (LDC) to 'map_size_inst/game_8x8/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (map_size_inst/game_8x8/\labyrinth_game_inst/idx_reg[9] )
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/labyrinth_game_inst/idx_reg[8]' (LDC) to 'map_size_inst/game_16x16/labyrinth_game_inst/idx_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (map_size_inst/game_16x16/\labyrinth_game_inst/idx_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (map_size_inst/game_16x16/i_3/\points_o_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (labyrinth_game_inst/idx_reg[9]) is unused and will be removed from module game.
+WARNING: [Synth 8-3332] Sequential element (labyrinth_game_inst/idx_reg[9]) is unused and will be removed from module game__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (labyrinth_game_inst/idx_reg[9]) is unused and will be removed from module game__parameterized1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1010.754 ; gain = 482.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+--------------------+---------------+----------------+
+|Module Name | RTL Object         | Depth x Width | Implemented As | 
++------------+--------------------+---------------+----------------+
+|game        | break_wall_lives_o | 32x16         | LUT            | 
+|game        | break_wall_lives_o | 32x16         | LUT            | 
+|game        | break_wall_lives_o | 32x16         | LUT            | 
+|game        | break_wall_lives_o | 32x16         | LUT            | 
++------------+--------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_inst/clk_out1' to pin 'clk_wiz_inst/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_inst/clk_out2' to pin 'clk_wiz_inst/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1010.754 ; gain = 482.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1025.203 ; gain = 496.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[64]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[63]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_4x4/map_generator_inst/goal_x_generator_32/random_number_reg[1]' (FDR) to 'map_size_inst/game_4x4/map_generator_inst/goal_x_o_reg[0]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[47]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[46]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[42]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[41]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[38]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[37]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[34]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[33]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[33]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[32]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[62]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[61]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[59]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[58]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[56]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[55]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[57]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[56]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[50]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[49]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[51]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[50]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[54]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[53]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[53]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/map_o_reg[52]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/goal_x_generator_32/random_number_reg[3]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/goal_x_o_reg[2]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/player_y_generator_32/random_number_reg[3]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/player_y_o_reg[2]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_8x8/map_generator_inst/goal_x_generator_32/random_number_reg[1]' (FDR) to 'map_size_inst/game_8x8/map_generator_inst/goal_x_o_reg[0]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/player_y_generator_32/random_number_reg[3]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/player_y_o_reg[2]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/player_y_generator_32/random_number_reg[4]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/player_y_o_reg[3]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[198]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[197]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[199]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[198]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[195]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[194]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[192]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[191]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[204]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[203]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[205]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[204]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[203]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[202]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[200]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[199]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[201]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[200]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[214]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[213]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[212]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[211]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[213]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[212]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[211]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[210]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[209]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[208]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[222]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[221]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[223]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[222]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[216]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[215]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[217]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[216]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[231]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[230]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[226]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[225]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[224]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[223]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[225]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[224]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[238]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[237]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[239]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[238]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[235]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[234]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[232]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[231]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[233]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[232]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[244]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[243]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[245]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[244]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[241]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[240]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[255]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[254]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[134]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[133]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[130]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[129]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[128]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[127]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[129]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[128]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[143]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[142]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[140]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[139]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[139]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[138]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[137]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[136]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[150]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[149]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[147]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[146]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[144]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[143]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[158]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[157]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[156]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[155]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[157]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[156]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[154]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[153]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[155]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[154]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[152]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[151]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[153]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[152]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[167]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[166]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[164]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[163]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[162]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[161]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[163]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[162]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[161]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[160]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[174]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[173]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[175]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[174]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[172]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[171]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[173]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[172]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[171]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[170]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[168]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[167]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[169]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[168]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[182]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[181]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[183]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[182]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[180]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[179]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[176]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[175]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[188]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[187]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[189]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[188]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[186]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[185]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[187]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[186]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[185]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[184]'
+INFO: [Synth 8-3886] merging instance 'map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[70]' (FDR) to 'map_size_inst/game_16x16/map_generator_inst/map_o_reg[69]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1077.070 ; gain = 548.605
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1081.879 ; gain = 553.414
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1081.879 ; gain = 553.414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1081.879 ; gain = 553.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1081.879 ; gain = 553.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1081.879 ; gain = 553.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1081.879 ; gain = 553.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                                                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top_level   | map_size_inst/game_4x4/map_generator_inst/goal_y_generator_32/random_number_reg[31]     | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/player_y_generator_32/random_number_reg[16]   | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/map_generator_1024/random_number_reg[1006]    | 6      | 11    | YES          | NO                 | YES               | 11     | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/map_generator_1024/random_number_reg[998]     | 4      | 37    | YES          | NO                 | YES               | 37     | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/map_generator_1024/random_number_reg[907]     | 5      | 14    | YES          | NO                 | YES               | 14     | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/map_generator_1024/random_number_reg[734]     | 7      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/map_generator_1024/random_number_reg[545]     | 12     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/goal_x_generator_32/random_number_reg[14]     | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/player_y_generator_32/random_number_reg[21]   | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/player_x_generator_32/random_number_reg[31]   | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_4x4/map_generator_inst/map_generator_1024/random_number_reg[830]     | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/goal_y_generator_32/random_number_reg[31]     | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/player_y_generator_32/random_number_reg[16]   | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[1006]    | 6      | 11    | YES          | NO                 | YES               | 11     | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[998]     | 4      | 36    | YES          | NO                 | YES               | 36     | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[907]     | 5      | 13    | YES          | NO                 | YES               | 13     | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[734]     | 7      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[545]     | 12     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/goal_x_generator_32/random_number_reg[14]     | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/player_y_generator_32/random_number_reg[21]   | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/player_x_generator_32/random_number_reg[31]   | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_8x8/map_generator_inst/map_generator_1024/random_number_reg[830]     | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/goal_y_generator_32/random_number_reg[31]   | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/player_y_generator_32/random_number_reg[16] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[1006]  | 6      | 8     | YES          | NO                 | YES               | 8      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[998]   | 4      | 28    | YES          | NO                 | YES               | 28     | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[907]   | 5      | 10    | YES          | NO                 | YES               | 10     | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[734]   | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[545]   | 12     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/goal_x_generator_32/random_number_reg[14]   | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/player_y_generator_32/random_number_reg[21] | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/player_x_generator_32/random_number_reg[31] | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_16x16/map_generator_inst/map_generator_1024/random_number_reg[830]   | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_32x32/map_generator_inst/player_y_generator_32/random_number_reg[16] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_32x32/map_generator_inst/goal_y_generator_32/random_number_reg[31]   | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_32x32/map_generator_inst/goal_x_generator_32/random_number_reg[14]   | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_32x32/map_generator_inst/player_x_generator_32/random_number_reg[31] | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_level   | map_size_inst/game_32x32/map_generator_inst/player_y_generator_32/random_number_reg[21] | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+-----------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz_0 |     1|
+|2     |BUFG      |     3|
+|3     |CARRY4    |   188|
+|4     |LUT1      |    56|
+|5     |LUT2      |   455|
+|6     |LUT3      |   186|
+|7     |LUT4      |  1605|
+|8     |LUT5      |   399|
+|9     |LUT6      |  2609|
+|10    |MUXF7     |   358|
+|11    |MUXF8     |   120|
+|12    |SRL16E    |   199|
+|13    |FDCE      |    23|
+|14    |FDPE      |     3|
+|15    |FDRE      |  6402|
+|16    |FDSE      |  1972|
+|17    |LDC       |    28|
+|18    |IBUF      |    19|
+|19    |OBUF      |    41|
++------+----------+------+
+
+Report Instance Areas: 
++------+------------------------------+-------------------------------+------+
+|      |Instance                      |Module                         |Cells |
++------+------------------------------+-------------------------------+------+
+|1     |top                           |                               | 14669|
+|2     |  uart_unit                   |uart_handler                   |   133|
+|3     |    receiver                  |uart_receiver                  |    81|
+|4     |  button_unit                 |button_handler                 |   183|
+|5     |    dbC                       |debouncer_33                   |    33|
+|6     |    dbD                       |debouncer_34                   |    37|
+|7     |    dbL                       |debouncer_35                   |    35|
+|8     |    dbR                       |debouncer_36                   |    37|
+|9     |    dbU                       |debouncer_37                   |    36|
+|10    |    edC                       |rising_edge_detector           |     1|
+|11    |    edD                       |rising_edge_detector_38        |     1|
+|12    |    edL                       |rising_edge_detector_39        |     1|
+|13    |    edR                       |rising_edge_detector_40        |     1|
+|14    |    edU                       |rising_edge_detector_41        |     1|
+|15    |  map_size_inst               |map_size                       | 13687|
+|16    |    game_16x16                |game__parameterized1           |  2778|
+|17    |      labyrinth_game_inst     |labyrinth_game__parameterized1 |   817|
+|18    |      map_generator_inst      |map_generator__parameterized1  |  1605|
+|19    |        goal_x_generator_32   |prand_num_gen_32_28            |    82|
+|20    |        goal_y_generator_32   |prand_num_gen_32_29            |    33|
+|21    |        map_generator_1024    |prand_num_gen_1024_30          |   881|
+|22    |        player_x_generator_32 |prand_num_gen_32_31            |    54|
+|23    |        player_y_generator_32 |prand_num_gen_32_32            |    27|
+|24    |    game_32x32                |game__parameterized2           |  7023|
+|25    |      labyrinth_game_inst     |labyrinth_game__parameterized2 |  3115|
+|26    |      map_generator_inst      |map_generator__parameterized2  |  2776|
+|27    |        goal_x_generator_32   |prand_num_gen_32_23            |    70|
+|28    |        goal_y_generator_32   |prand_num_gen_32_24            |    40|
+|29    |        map_generator_1024    |prand_num_gen_1024_25          |   518|
+|30    |        player_x_generator_32 |prand_num_gen_32_26            |    47|
+|31    |        player_y_generator_32 |prand_num_gen_32_27            |    33|
+|32    |    game_4x4                  |game                           |  1456|
+|33    |      labyrinth_game_inst     |labyrinth_game                 |    73|
+|34    |      map_generator_inst      |map_generator                  |  1180|
+|35    |        goal_x_generator_32   |prand_num_gen_32_18            |    44|
+|36    |        goal_y_generator_32   |prand_num_gen_32_19            |    38|
+|37    |        map_generator_1024    |prand_num_gen_1024_20          |   982|
+|38    |        player_x_generator_32 |prand_num_gen_32_21            |    44|
+|39    |        player_y_generator_32 |prand_num_gen_32_22            |    32|
+|40    |    game_8x8                  |game__parameterized0           |  1696|
+|41    |      labyrinth_game_inst     |labyrinth_game__parameterized0 |   239|
+|42    |      map_generator_inst      |map_generator__parameterized0  |  1294|
+|43    |        goal_x_generator_32   |prand_num_gen_32               |    39|
+|44    |        goal_y_generator_32   |prand_num_gen_32_15            |    37|
+|45    |        map_generator_1024    |prand_num_gen_1024             |   969|
+|46    |        player_x_generator_32 |prand_num_gen_32_16            |    82|
+|47    |        player_y_generator_32 |prand_num_gen_32_17            |    27|
+|48    |    render_16x16              |render__parameterized1         |   200|
+|49    |      vga_unit                |vga_controller_14              |   200|
+|50    |    render_32x32              |render__parameterized2         |   199|
+|51    |      vga_unit                |vga_controller_13              |   199|
+|52    |    render_4x4                |render                         |   162|
+|53    |      vga_unit                |vga_controller_12              |   162|
+|54    |    render_8x8                |render__parameterized0         |   173|
+|55    |      vga_unit                |vga_controller                 |   173|
+|56    |  seven_segmen_unit           |seven_segment_controller       |    63|
+|57    |  switch_unit                 |switch_handler                 |   524|
+|58    |    dbsw0                     |debouncer                      |    35|
+|59    |    dbsw1                     |debouncer_0                    |    41|
+|60    |    dbsw10                    |debouncer_1                    |    33|
+|61    |    dbsw14                    |debouncer_2                    |    96|
+|62    |    dbsw15                    |debouncer_3                    |    35|
+|63    |    dbsw2                     |debouncer_4                    |    39|
+|64    |    dbsw3                     |debouncer_5                    |    33|
+|65    |    dbsw4                     |debouncer_6                    |    35|
+|66    |    dbsw5                     |debouncer_7                    |    34|
+|67    |    dbsw6                     |debouncer_8                    |    36|
+|68    |    dbsw7                     |debouncer_9                    |    34|
+|69    |    dbsw8                     |debouncer_10                   |    36|
+|70    |    dbsw9                     |debouncer_11                   |    37|
++------+------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1081.879 ; gain = 553.414
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 1081.879 ; gain = 362.980
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 1081.879 ; gain = 553.414
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 694 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 20 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1081.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 28 instances were transformed.
+  LDC => LDCE: 8 instances
+  LDC => LDCE (inverted pins: G): 20 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+209 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1081.879 ; gain = 785.391
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1081.879 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/erman/vivado_projects/ele265/labyrinth/labyrinth.runs/synth_1/top_level.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_level_utilization_synth.rpt -pb top_level_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 19 17:12:24 2024...
